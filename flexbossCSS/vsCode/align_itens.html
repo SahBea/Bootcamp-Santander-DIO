@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Align itens</title>
+    <style>
+        .container{
+            max-width:350px ;
+            display: flex;
+            border: 3px solid black;
+        }
+        .itens{
+            background-color: blueviolet;
+            margin: 5px;
+            color: wheat;
+            text-align: center;
+            flex: 1;
+        }
+        .center{
+            align-items: center;
+        }
+        .stretch{
+            align-items:stretch;
+        }
+        .start{
+            align-items:flex-start;   
+        }
+        .end{
+            align-items:flex-end;
+        }
+        .baseline{
+            align-items:baseline;
+        }
+        .column{
+            flex-direction: column;
+        }
+        .central{
+            height: 300px;
+            justify-content: center;
+        }
+        .central .item{
+            flex: 0px;
+            padding: 250px;
+            
+        }        
+    </style>
+</head>
+<body>
+    <h1>Row</h1>
+    <p>center</p>
+    <section class="container center">
+        <div class="itens">vvdf</div>
+        <div class="itens">btgbgb</div>
+        <div class="itens">gbdmyumu</div>
+        <div class="itens">djnotgme rj hnrtolu urghnerucgfmfk</div>
+    </section>
+
+    <p>stretch</p>
+    <section class="container stretch">
+        <div class="itens">vvdf</div>
+        <div class="itens">btgbgb</div>
+        <div class="itens">gbdmyumu</div>
+        <div class="itens">djnvldhhnwehjhmrotgme rj hnrtolu urghnerucgfmfk</div>
+    </section>
+
+    <p>start</p>
+    <section class="container start">
+        <div class="itens">vvdf</div>
+        <div class="itens">btgbgb</div>
+        <div class="itens">gbdmyumu</div>
+        <div class="itens">djnvlnorgjhmrotgme rj hnrtolu urghnerucgfmfk</div>
+    </section>
+
+    <p>end</p>
+    <section class="container end">
+        <div class="itens">vvdf</div>
+        <div class="itens">btgbgb</div>
+        <div class="itens">gbdmyumu</div>
+        <div class="itens">djnvldhhgjhmrotgme rj hnrtolu urghnerucgfmfk</div>
+    </section>
+
+    <p>baseline</p>
+    <section class="container baseline">
+        <div class="itens">vvdf</div>
+        <div class="itens">btgbgb</div>
+        <div class="itens">gbdmyumu</div>
+        <div class="itens">djnvldhhnwehmrotgme rj hnrtolu urghnerucgfmfk</div>
+    </section>
+
+    <h1>column</h1>
+    <p>center</p>
+    <section class="container center column">
+        <div class="itens">vvdf</div>
+        <div class="itens">btgbgb</div>
+        <div class="itens">gbdmyumu</div>
+        <div class="itens">djnvldhhnwehjgnorgjhmrotgme rj hnrtolu urghnerucgfmfk</div>
+    </section>
+
+    <p>stretch</p>
+    <section class=" container column stretch">
+        <div class="itens">vvdf</div>
+        <div class="itens">btgbgb</div>
+        <div class="itens">gbdmyumu</div>
+        <div class="itens">djnvldhhnwehjgnorgjhmrotgme rj hnrtolu urghnerucgfmfk</div>
+    </section>
+
+    <p>start</p>
+    <section class=" container column start">
+        <div class="itens">vvdf</div>
+        <div class="itens">btgbgb</div>
+        <div class="itens">gbdmyumu</div>
+        <div class="itens">djnvldhhnwehjgnorgjhmrotgme rj hnrtolu urghnerucgfmfk</div>
+    </section>
+
+    <p>end</p>
+    <section class=" container column end">
+        <div class="itens">vvdf</div>
+        <div class="itens">btgbgb</div>
+        <div class="itens">gbdmyumu</div>
+        <div class="itens">djnvldhhnwehjgnorgjhmrotgme rj hnrtolu urghnerucgfmfk</div>
+    </section>
+
+    <p>baseline</p>
+    <section class=" container column baseline">
+        <div class="itens">vvdf</div>
+        <div class="itens">btgbgb</div>
+        <div class="itens">gbdmyumu</div>
+        <div class="itens">djnvldhhnwehjgnorgjhmrotgme rj hnrtolu urghnerucgfmfk</div>
+    </section>
+
+    <h1>central</h1>
+    <p>center</p>
+    <section class=" container column central center">
+        <div class="itens">vvdf</div>
+        <div class="itens">btgbgb</div>
+        <div class="itens">gbdmyumu</div>
+        <div class="itens">djnvldhhnwehjgnorgjhmrotgme rj hnrtolu urghnerucgfmfk</div>
+    </section>
+
+    <p>stretch</p>
+    <section class=" container central column center">
+        <div class="itens">vvdf</div>
+        <div class="itens">btgbgb</div>
+        <div class="itens">gbdmyumu</div>
+        <div class="itens">djolu urghnerucgrbrbegftntbhtyhbt6yn4njfvnfj nfj fv jkgfvnfjvnfjvnfjkvngfmfk</div>
+    </section>
+
+    <p>alinhado ao centro</p>
+    <section class="container central certer">
+        <div class="itens"> vjenvjednjcnnejqn e vcehjchejnlcjcndvnwejv vherjdcndçlcdsndv cerjdncedçcdcnjfwdjkfj</div>
+    </section>
+    
+</body>
+</html>5
